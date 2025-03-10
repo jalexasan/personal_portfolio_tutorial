@@ -1,0 +1,100 @@
+body {
+    background-color:rgb(119, 182, 91);
+    color:rgb(255, 255, 255);
+    
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a {     /*links within nav container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;   /* removes underline */
+    color: white;          /* by default, links are blue */
+}
+
+nav a:hover {
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    font-size: 2em;
+    transition: .9s; /*transition effect*/
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 15px;
+    color: rgb(54, 83, 30);
+    justify-content: center;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: rgb(255, 255, 255);
+}
+
+#table-header {
+    background-color: #000000;
+}
+
+.table-row {
+    background-color: #3c572f;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: yellow;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header h1 {    
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 60px;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#csumb {
+    height: 150px;
+    width: auto;
+    padding: 20px;
+}
+
+.currentpage {
+    background-color: rgb(175, 226, 159);
+}
+
+#pfp {
+    height: 300px;
+    width: auto;
+    
+}
+
+#content {
+    padding: 20px;
+}
