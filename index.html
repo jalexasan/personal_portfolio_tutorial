@@ -1,59 +1,51 @@
 <!DOCTYPE html>
 <html>
     <link href = "css/styles.css" rel = "stylesheet" type = "text/css" />
+
     <head>
-       
         <meta charset= "utf-8" />
-        <title> Janelle Santiago: Personal Website </title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <title> Computer Graphics: In Depth </title>
     </head>
+
 
     <body>
         <header>
-            <h1> Janelle Santiago </h1>
+            <nav>
+                <a id = "home" href = "index.html" class = "currentpage"> Home </a>
+                <a id = "about" href = "history.html"> History </a>
+                <a id = "types" href = "types.html"> Types </a>
+                <a id = "applications" href = "applications.html"> Applications </a>
+            </nav>
         </header>
         <hr />
-        <nav>
-            <a id = "home" href = "index.html" class = "currentpage"> Home </a>
-            <a id = "about" href = "about.html"> About </a>
-            <a id = "contact" href = "contact.html"> Contact </a>
-        </nav>
-
-        <br /><br />
+       
 
         <main>
-            <figure>
-                <img id = "pfp" src = "img/bamboo.jpg" alt = "Totally a picture of Janelle Santiago" />
-            </figure>
-
-            <div>
-                Hello! <br />
-                <p> Thank you for visiting my profesional portfolio website. </p>
-                <p> I am a student studying Computer Science at Monterey Bay. </p>
-                <p> Feel free to contact me! </p>
-                <br /><br />
-
-                <em> "With ordinary talent and extraordinary <strong>preserverance</strong>, all things are attainable"</em><br />
-                    - Thomas F. Buxton
+            <h1> Computer Graphics </h1>
+            <div class = intropara>
+                <figure>
+                    <img class = "frame" src = "images/computergraphicsintropicture.png" alt = "What editing computer graphics looks like example" />
+                </figure>
+                <div> 
+                    <p> On your devices, there are interactive elements that you have within applications such as images, videos, animations, etc. These are computer graphics,
+                        which is also known as CG. There is a process through instruction and renders using your computer in order for these graphics to appear on your screen. 
+                        These graphics are used to incorporate style into an application to make it appealing and unique.
+                    </p>
+                    <p> Computer Graphcis is not only a topic of design, but it also has concepts relating to Computer Science. Mathematics and physics come into play to understand
+                        how to work out motion, vectors within 3D models, and more. Programming languages such as Javascript and Graphics Libraries are necessary to implement this logic. These tools work together to 
+                        manipulate digital information into amazing visuals necessary for an attractive application.
+                    </p>
+                </div>
+                
             </div>
         </main>
         
-        
-        
+
         <footer>
              <hr>
-             <div>CST336 Internet Programming. 20XX&copy; Santiago <br />
-                <strong> Disclaimer: </strong> The information in this webpage is fictitious. <br />
-                It is used for academic purposes only.
+             <div>References<br />
+                <a href = "https://www.geeksforgeeks.org/introduction-to-computer-graphics/"> "<cite>Introduction to Computer Graphics</cite>" </a>
             </div>
-             
-
-             <img id = "csumb" src = "img/monterey bay.webp" alt = "Monterey Bay Logo" />
         </footer>
         
     </body>
